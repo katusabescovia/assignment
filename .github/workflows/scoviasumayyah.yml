@@ -1,0 +1,9 @@
+name: Scovia and Sumayyah
+run-name: Testing Github Actions
+on: [push]
+jobs:
+  Test-GithubActions:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Automatically triggered test event"
+    - run: echo "CICD Class Bootcamp 15"
